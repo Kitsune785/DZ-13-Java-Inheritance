@@ -15,8 +15,8 @@ public class ProductManagerTest {
 
     Product book1 = new Book(1, "Книга 1", 100, "Автор 1");
     Product book2 = new Book(2, "Книга 2", 200, "Автор 2");
-    Product smartphone1 = new Smartphone(1, "Телефон 1", 10_000, "Производитель 1");
-    Product smartphone2 = new Smartphone(2, "Телефон 2", 20_000, "Производитель 2");
+    Product smartphone1 = new Smartphone(10, "Телефон 1", 10_000, "Производитель 1");
+    Product smartphone2 = new Smartphone(21, "Телефон 2", 20_000, "Производитель 2");
 
 
     @BeforeEach
