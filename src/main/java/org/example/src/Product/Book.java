@@ -4,13 +4,15 @@ import org.example.src.domain.Product;
 
 public class Book extends Product {
 
-    private String name;
     private String author;
 
-    public Book(int id, String name, int price, String name1, String author) {
+    public Book(int id, String name, int price, String author) {
         super(id, name, price);
-        this.name = name1;
         this.author = author;
+    }
+
+    public Book() {
+
     }
 
     @Override
@@ -30,5 +32,4 @@ public class Book extends Product {
     public void setAuthor(String author) {
         this.author = author;
     }
-
 }
