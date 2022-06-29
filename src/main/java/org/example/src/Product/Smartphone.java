@@ -32,4 +32,11 @@ public class Smartphone extends Product {
     public void setMaker(String maker) {
         this.maker = maker;
     }
+
+    public boolean matches(String search){
+        if (super.matches(search)){
+            return true;
+        }
+        return maker.equalsIgnoreCase(search);
+    }
 }
